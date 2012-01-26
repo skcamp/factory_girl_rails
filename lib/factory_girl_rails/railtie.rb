@@ -22,9 +22,9 @@ module FactoryGirl
       ]
     end
 
-    config.after_initialize do
-      FactoryGirl.find_definitions
-    end
+    # config.after_initialize do
+      # FactoryGirl.find_definitions
+    # end
   end
 end
 
